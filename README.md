@@ -15,7 +15,7 @@
 
 ```powershell
 python -m pip install -r requirements.txt
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 ## 默认计算口径
