@@ -1,4 +1,6 @@
 # 补货预测异常识别
+# Replenishment-anomaly-detector
+识别降级误补货、退货异常和偶发大单
 
 这是一个 Streamlit 工具。上传两行表头的补货预测 `.xlsx` 后，工具会：
 
@@ -36,7 +38,4 @@ streamlit run app.py
 - `return_anomaly.py`：`ReturnAnomalyAnalyzer`，负责退货异常、库存覆盖及断货判断。
 - `oneoff_order_analysis.py`：`OneOffOrderAnalyzer`，负责偶发大单的稳健统计判断。
 - `forecast_analyzer.py`：读取源文件、调用三个分析器、汇总结果并生成中文页面和 Excel 输出。
-=======
-# replenishment-anomaly-detector
-识别降级误补货、退货异常和偶发大单
->>>>>>> origin/main
+
